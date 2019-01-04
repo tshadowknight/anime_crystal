@@ -128,7 +128,7 @@ INCLUDE "audio/music/battletowertheme.asm"
 INCLUDE "audio/music/suicunebattle.asm"
 INCLUDE "audio/music/battletowerlobby.asm"
 INCLUDE "audio/music/mobilecenter.asm"
-
+INCLUDE "audio/music/geah_hibiki.asm"
 
 
 SECTION "Extra Songs 1", ROMX
@@ -136,6 +136,7 @@ SECTION "Extra Songs 1", ROMX
 INCLUDE "audio/music/credits.asm"
 INCLUDE "audio/music/clair.asm"
 INCLUDE "audio/music/mobileadapter.asm"
+
 
 
 SECTION "Extra Songs 2", ROMX

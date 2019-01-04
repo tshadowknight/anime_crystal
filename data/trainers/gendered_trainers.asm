@@ -39,4 +39,5 @@ FemaleTrainers: ; 4e976
 	db KIMONO_GIRL
 	db POKEFANF
 	db COOLTRAINERF
+	db HIBIKI
 .End

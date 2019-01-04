@@ -68,4 +68,6 @@ BTTrainerClassGenders: ; 11f2f0
 	db MALE   ; BLUE
 	db MALE   ; OFFICER
 	db FEMALE ; GRUNTF
+	db FEMALE ; GRUNTF
+	db FEMALE ; GEAH
 ; 11f332
