@@ -79,28 +79,7 @@ WillsRoom_EnterMovement:
 	step_end
 
 WillScript_WillBeforeText:
-	text "Welcome to #MON"
-	line "LEAGUE, <PLAYER>."
-
-	para "Allow me to intro-"
-	line "duce myself. I am"
-	cont "WILL."
-
-	para "I have trained all"
-	line "around the world,"
-
-	para "making my psychic"
-	line "#MON powerful."
-
-	para "And, at last, I've"
-	line "been accepted into"
-	cont "the ELITE FOUR."
-
-	para "I can only keep"
-	line "getting better!"
-
-	para "Losing is not an"
-	line "option!"
+	text "!"	
 	done
 
 WillScript_WillBeatenText:

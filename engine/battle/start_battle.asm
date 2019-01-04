@@ -92,6 +92,10 @@ PlayBattleMusic: ; 2ee6c
 	jr z, .done
 	cp RED
 	jr z, .done
+	
+	ld de, MUSIC_GEAH_HIBIKI
+	cp HIBIKI
+	jr z, .done
 
 	; They should have included EXECUTIVEM, EXECUTIVEF, and SCIENTIST too...
 	ld de, MUSIC_ROCKET_BATTLE
@@ -109,6 +113,9 @@ PlayBattleMusic: ; 2ee6c
 	ld de, MUSIC_JOHTO_GYM_LEADER_BATTLE
 	farcall IsGymLeader
 	jr c, .done
+	
+	
+	
 
 	ld de, MUSIC_RIVAL_BATTLE
 	ld a, [wOtherTrainerClass]
