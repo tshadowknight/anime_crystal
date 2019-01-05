@@ -49,7 +49,7 @@ WillScript_Battle:
 	waitbutton
 	closetext
 	winlosstext WillScript_WillBeatenText, 0
-	loadtrainer HIBIKI, HIBIKI1
+	loadtrainer WILL, WILL1
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_ELITE_4_WILL
@@ -79,7 +79,28 @@ WillsRoom_EnterMovement:
 	step_end
 
 WillScript_WillBeforeText:
-	text "!"	
+	text "Welcome to #MON"
+	line "LEAGUE, <PLAYER>."
+
+	para "Allow me to intro-"
+	line "duce myself. I am"
+	cont "WILL."
+
+	para "I have trained all"
+	line "around the world,"
+
+	para "making my psychic"
+	line "#MON powerful."
+
+	para "And, at last, I've"
+	line "been accepted into"
+	cont "the ELITE FOUR."
+
+	para "I can only keep"
+	line "getting better!"
+
+	para "Losing is not an"
+	line "option!"
 	done
 
 WillScript_WillBeatenText:
