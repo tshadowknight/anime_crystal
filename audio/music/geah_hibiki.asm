@@ -16,6 +16,7 @@ Music_GeahHibiki_Ch1:
 		dutycycle 1
 		notetype 12, $B8
 		tone 1
+		vibrato 10, 40
 Channel1_Bar1:
 		octave 4
 		note C_, 2
@@ -37,6 +38,8 @@ Channel1_Bar2:
 		note D_, 2
 		note __, 4
 Channel1_Bar3:
+		intensity $D0 ; ch 1 init
+		vibrato 10, 41
 		octave 3
 		note G_, 2
 		octave 4
@@ -105,18 +108,54 @@ Channel1_Bar12:
 		note D_, 6
 		note __, 4
 Channel1_Bar13:
-		note __, 16
+		intensity $A0 ; ch 1 init
+		octave 2
+		note A#, 2
+		octave 3
+		note __, 2
+		note C_, 1
+		note __, 1
+		note C_, 4
+		note __, 2
+		note D_, 2
+		note __, 2
 Channel1_Bar14:
-		note __, 16
+		note D#, 2
+		note __, 2
+		note D_, 1
+		note __, 1
+		note D#, 4
+		note __, 6
 Channel1_Bar15:
-		note __, 16
-Channel1_Bar16:
-		note __, 16
+		note D_, 4
+		note __, 2
+		note C_, 4
+		note __, 2
+		octave 2
+		note A#, 2
+		note __, 2
+Channel1_Bar16:		
+		note A#, 4 
+		note __, 2
+		note G_, 6
+		note __, 4
 Channel1_Bar17:
-		note __, 16
+		octave 3
+		note C_, 4
+		note __, 2
+		note C_, 4
+		note __, 2
+		note D_, 2
+		note __, 2
 Channel1_Bar18:
-		note __, 16
+		note D#, 4
+		note __, 2
+		note D#, 4
+		note __, 2
+		note F_, 2
+		note __, 2
 Channel1_Bar19:
+		octave 4
 		note D_, 2
 		note __, 4
 		note D_, 2
@@ -128,151 +167,132 @@ Channel1_Bar20:
 		note D_, 2
 		note __, 12
 Channel1_Bar21:
-		note D#, 2
+		intensity $C2 ; ch 1 acc
+		octave 4
+		note C_, 2
 		note __, 4
-		note D#, 2
-		octave 3
-		note G_, 2
+		note G_, 2		
 		note __, 4
 		note G_, 2
+		note __, 2
 Channel1_Bar22:
-		octave 4
 		note D#, 2
 		note __, 4
-		note D#, 2
-		octave 3
-		note G_, 2
+		note G_, 2		
 		note __, 4
 		note G_, 2
+		note __, 2
 Channel1_Bar23:
-		octave 4
-		note F_, 2
+		note D_, 2
 		note __, 4
-		note F_, 2
-		octave 3
-		note A#, 2
+		note G_, 2		
 		note __, 4
-		note A#, 2
+		note G_, 2
+		note __, 2
 Channel1_Bar24:
-		octave 4
-		note F_, 2
+		note D#, 2
 		note __, 4
-		note F_, 2
-		octave 3
-		note A#, 2
+		note G_, 2		
 		note __, 4
-		note A#, 2
+		note G_, 2
+		note __, 2
 Channel1_Bar25:
-		octave 4
-		note D#, 2
+		note C_, 2
 		note __, 4
-		note D#, 2
-		octave 3
-		note G#, 2
+		note F_, 2		
 		note __, 4
-		note G#, 2
+		note F_, 2
+		note __, 2
 Channel1_Bar26:
-		octave 4
-		note D#, 2
+		note C_, 2
 		note __, 4
-		note D#, 2
-		octave 3
-		note G#, 2
+		note F_, 2		
 		note __, 4
-		note G#, 2
+		note F_, 2
+		note __, 2
 Channel1_Bar27:
-		octave 4
-		note F_, 2
+		note D_, 2
 		note __, 4
-		note F_, 2
 		octave 3
-		note A#, 2
+		note A#, 2		
 		note __, 4
 		note A#, 2
+		note __, 2
 Channel1_Bar28:
 		octave 4
-		note F_, 2
+		note D_, 2
 		note __, 4
-		note F_, 2
 		octave 3
-		note A#, 2
+		note A#, 2		
 		note __, 4
 		note A#, 2
+		note __, 2
 Channel1_Bar29:
 		octave 4
+		note C_, 2
+		note __, 4
 		note G_, 2
 		note __, 4
 		note G_, 2
-		note C_, 2
-		note __, 4
-		note C_, 2
+		note __, 2
 Channel1_Bar30:
+		note C_, 2
+		note __, 4
 		note G_, 2
 		note __, 4
 		note G_, 2
-		note C_, 2
-		note __, 4
-		note C_, 2
+		note __, 2
 Channel1_Bar31:
-		note C_, 2
-		note __, 4
-		note C_, 2
-		note __, 4
-		note C_, 2
+		intensity $D3 ; ch 1 acc part 2
+		note C_, 4
 		note __, 2
+		note C_, 4
+		note __, 2
+		note C_, 4
 Channel1_Bar32:
-		note C_, 2
-		note __, 4
-		note C_, 2
-		note __, 4
-		note C_, 2
+		note C_, 4
 		note __, 2
+		note C_, 4
+		note __, 2
+		note C_, 4
 Channel1_Bar33:
-		octave 3
-		note A#, 2
-		note __, 4
-		note A#, 2
-		note __, 4
-		note A#, 2
+		note C_, 4
 		note __, 2
+		note C_, 4
+		note __, 2
+		note C_, 4
 Channel1_Bar34:
-		note A#, 2
-		note __, 4
-		note A#, 2
-		note __, 4
-		note B_, 2
+		note C_, 4
 		note __, 2
+		note C_, 4
+		note __, 2
+		note C_, 4
 Channel1_Bar35:
-		octave 4
-		note C_, 2
-		note __, 4
-		note C_, 2
-		note __, 4
-		note C_, 2
+		note C_, 4
 		note __, 2
+		note C_, 4
+		note __, 2
+		note C_, 4
 Channel1_Bar36:
-		note C_, 2
-		note __, 4
-		note C_, 2
-		note __, 4
-		octave 3
-		note A_, 2
+		note C_, 4
 		note __, 2
+		note C_, 4
+		note __, 2
+		note F_, 4
 Channel1_Bar37:
-		note G_, 2
-		note __, 4
-		note G_, 2
-		note __, 4
-		note G_, 2
+		note E_, 4
 		note __, 2
+		note E_, 4
+		note __, 2
+		note E_, 4
 Channel1_Bar38:
-		note G_, 2
-		note __, 4
-		note G_, 2
-		note __, 4
-		note G_, 2
+		note E_, 4
 		note __, 2
+		note E_, 4
+		note __, 2
+		note E_, 4
 Channel1_Bar39:
+		intensity $D0 ; ch 1 restore
 		note __, 12
 		octave 4
 		note C_, 2
@@ -323,6 +343,7 @@ Channel1_Bar46:
 		;overflow 14
 		note A_, 6
 Channel1_Bar47:
+		intensity $F0 ; ch 1 last section lead
 		;overflow 4
 		note __, 6
 		octave 3
@@ -454,23 +475,25 @@ Channel1_Bar61:
 		note C_, 4
 		note __, 4
 Channel1_Bar62:
-		octave 3
+		octave 4
 		note F_, 4
 		note __, 2
-		octave 4
-		note C_, 2
+		octave 5
+		note C_, 1
+		note __, 1
 		note C_, 4
 		note __, 4
 Channel1_Bar63:
-		octave 3
+		octave 4
 		note G_, 4
 		note __, 2
-		octave 4
-		note C_, 2
+		octave 5
+		note C_, 1
+		note __, 1
 		note C_, 4
 		note __, 4
 Channel1_Bar64:
-		octave 3
+		octave 4
 		note G#, 2
 		note __, 2
 		note G#, 2
@@ -485,7 +508,7 @@ Channel1_Bar65:
 		note G_, 2
 		note F_, 2
 		note D#, 2
-		octave 4
+		octave 5
 		note C#, 2
 		note __, 2
 		note C#, 2
@@ -498,11 +521,11 @@ Channel1_Bar66:
 		note __, 1
 		note C_, 1
 		note __, 1
-		note C_, 3
-		note __, 1
-		octave 3
-		note A#, 2
+		note C_, 2
+		note __, 2
 		octave 4
+		note A#, 2
+		octave 5
 		note C_, 16
 Channel1_Bar67:		
 		note __, 2
@@ -558,69 +581,63 @@ Channel2_Bar2:
 		octave 1
 		note G_, 1
 Channel2_Bar3:
+		tone 3
+		intensity $F2
+		vibrato 0, 0
 		octave 3
-		note C_, 2
-		note __, 4
-		note D#, 2
-		note __, 4
-		note C_, 2
+		note C_, 4
 		note __, 2
+		note D#, 4
+		note __, 2
+		note C_, 4
 Channel2_Bar4:
-		note D#, 2
-		note __, 4
-		note D_, 2
-		note __, 4
-		note F_, 2
+		note D#, 4
 		note __, 2
+		note D_, 4
+		note __, 2
+		note F_, 4
 Channel2_Bar5:
-		note D#, 2
-		note __, 4
-		note F_, 2
-		note __, 4
-		note D_, 2
+		note D#, 4
 		note __, 2
+		note F_, 4
+		note __, 2
+		note D_, 4
 Channel2_Bar6:
-		note G_, 2
-		note __, 4
-		note D#, 2
-		note __, 4
-		note F_, 2
+		note G_, 4
 		note __, 2
+		note D#, 4
+		note __, 2
+		note F_, 4
 Channel2_Bar7:
-		note C_, 2
-		note __, 4
-		note D#, 2
-		note __, 4
-		note C_, 2
+		note C_, 4
 		note __, 2
+		note D#, 4
+		note __, 2
+		note C_, 4
 Channel2_Bar8:
-		note D#, 2
-		note __, 4
-		note D_, 2
-		note __, 4
-		note F_, 2
+		note D#, 4
 		note __, 2
+		note D_, 4
+		note __, 2
+		note F_, 4
 Channel2_Bar9:
-		note D#, 2
-		note __, 4
-		note F_, 2
-		note __, 4
-		note D_, 2
+		note D#, 4
 		note __, 2
+		note F_, 4
+		note __, 2
+		note D_, 4
 Channel2_Bar10:
-		note D#, 2
-		note __, 4
-		note D#, 2
-		note __, 4
-		note D#, 2
+		note D#, 4
 		note __, 2
+		note D#, 4
+		note __, 2
+		note D#, 4
 Channel2_Bar11:
-		note F_, 2
-		note __, 4
-		note F_, 2
-		note __, 4
-		note F_, 2
+		note F_, 4
 		note __, 2
+		note F_, 4
+		note __, 2
+		note F_, 4
 Channel2_Bar12:
 		note G_, 2
 		note G_, 2
@@ -628,6 +645,8 @@ Channel2_Bar12:
 		note G_, 2
 		note __, 8
 Channel2_Bar13:
+		intensity $F0
+		vibrato 10, 40
 		note D_, 2
 		note __, 2
 		note D#, 1
@@ -827,6 +846,8 @@ Channel2_Bar45:
 Channel2_Bar46:
 		note A_, 16
 Channel2_Bar47:
+		tone 2
+		intensity $A0 ; ch2 last section acc
 		note A_, 4
 		note __, 10
 		octave 4
@@ -895,10 +916,11 @@ Channel2_Bar54:
 		note C_, 14
 Channel2_Bar55:
 		; overflow 12
+		tone 2
 		note __, 2
 		octave 4		
 		note F_, 2
-Channel2_Bar56:
+Channel2_Bar56:		
 		octave 5
 		note C_, 2
 		octave 4
@@ -940,56 +962,53 @@ Channel2_Bar61:
 		octave 5
 		note C_, 8
 Channel2_Bar62:
-		octave 4
-		note F_, 4
+		octave 3
+		note G#, 4
 		note __, 2
-		octave 5
-		note C_, 2
-		note C_, 4
+		note G#, 1
+		note __, 1
+		note G#, 4
 		note __, 4
-Channel2_Bar63:
-		octave 4
-		note G_, 4
+Channel2_Bar63:	
+		note A#, 4
 		note __, 2
-		octave 5
-		note C_, 2
-		note C_, 4
+		note G_, 1
+		note __, 1
+		note G_, 4
 		note __, 4
 Channel2_Bar64:
 		octave 4
-		note G#, 2
+		note C_, 2
 		note __, 2
-		note G#, 2
-		note A#, 3
-		note __, 1
-		note G#, 2
-		note __, 2
-		note A#, 4
-Channel2_Bar65:
-		; overflow 2
-		note G#, 2
-		note G_, 2
-		note F_, 2
-		note D#, 2
-		octave 5
-		note C#, 2
-		note __, 2
-		note C#, 2
-Channel2_Bar66:
-		note C_, 1
-		note __, 1
-		note C_, 1
-		note __, 1
-		note C_, 1
-		note __, 1
-		note C_, 1
+		note C_, 2
+		note C#, 3
 		note __, 1
 		note C_, 2
 		note __, 2
-		octave 4
+		note C#, 4
+Channel2_Bar65:
+		; overflow 2
+		note C_, 2
+		octave 3
 		note A#, 2
-		octave 5
-		note C_, 16
+		note G#, 2
+		note G_, 2
+		note F_, 2
+		note __, 2
+		note F_, 2
+Channel2_Bar66:
+		note G_, 1
+		note __, 1
+		note G_, 1
+		note __, 1
+		note G_, 1
+		note __, 1
+		note G_, 1
+		note __, 1
+		note G_, 2
+		note __, 2		
+		note F_, 2	
+		note G_, 16
 Channel2_Bar67:		
 		note __, 2
 		loopchannel 0, Channel2_Bar3
@@ -998,6 +1017,7 @@ Channel2_Bar67:
 ; ===========================================================================
 Music_GeahHibiki_Ch3:
 		notetype 12, $15
+		tone 1
 Channel3_Bar1:
 		octave 2
 		intensity $19
@@ -1311,12 +1331,13 @@ Channel3_Bar28:
 		octave 2
 		note F_, 2
 		octave 1
-		note A#, 2
-		octave 2
-		note F_, 2
-		octave 1
-		note A#, 2
 		note B_, 2
+		octave 2
+		note F#, 2
+		octave 1
+		note B_, 2
+		octave 2
+		note F#, 2
 Channel3_Bar29:
 		octave 2
 		note C_, 2
@@ -1337,96 +1358,114 @@ Channel3_Bar30:
 		note C_, 2
 		note G_, 2
 Channel3_Bar31:
-		note C_, 2
-		note G_, 2
-		note C_, 2
-		note G_, 2
-		note C_, 2
-		note G_, 2
-		note C_, 2
-		note G_, 2
+		note F_, 2
+		note A#, 2
+		note F_, 2
+		note A#, 2
+		note F_, 2
+		note A#, 2
+		note F_, 2
+		note A#, 2
 Channel3_Bar32:
-		note C_, 2
-		note G_, 2
-		note C_, 2
-		note G_, 2
-		note C_, 2
-		note G_, 2
-		note C_, 2
-		octave 1
-		note B_, 2
+		note F_, 2
+		note A#, 2
+		note F_, 2
+		note A#, 2
+		note F_, 2
+		note A#, 2
+		note F_, 2
+		note A#, 2
 Channel3_Bar33:
-		note A#, 2
 		octave 2
-		note F_, 2
-		octave 1
-		note A#, 2
+		note G_, 2
+		octave 3
+		note C_, 2
 		octave 2
-		note F_, 2
-		octave 1
-		note A#, 2
+		note G_, 2
+		octave 3
+		note C_, 2
 		octave 2
-		note F_, 2
-		octave 1
-		note A#, 2
+		note G_, 2
+		octave 3
+		note C_, 2
 		octave 2
-		note F_, 2
+		note G_, 2
+		octave 3
+		note C_, 2
+		octave 2
 Channel3_Bar34:
-		octave 1
-		note A#, 2
 		octave 2
-		note F_, 2
-		octave 1
-		note A#, 2
+		note G_, 2
+		octave 3
+		note C_, 2
 		octave 2
-		note F_, 2
-		octave 1
-		note A#, 2
+		note G_, 2
+		octave 3
+		note C_, 2
 		octave 2
-		note F_, 2
-		octave 1
-		note A#, 2
-		note B_, 2
+		note G_, 2
+		octave 3
+		note C_, 2
+		octave 2
+		note G_, 2
+		octave 3
+		note C_, 2
+		octave 2
 Channel3_Bar35:
 		octave 2
-		note C_, 2
-		note G_, 2
-		note C_, 2
-		note G_, 2
-		note C_, 2
-		note G_, 2
-		note C_, 2
-		note G_, 2
+		note F_, 2
+		note A#, 2
+		note F_, 2
+		note A#, 2
+		note F_, 2
+		note A#, 2
+		note F_, 2
+		note A#, 2
 Channel3_Bar36:
-		note C_, 2
-		note G_, 2
-		note C_, 2
-		note G_, 2
-		note C_, 2
-		note G_, 2
-		note C_, 2
-		note G_, 2
+		note F_, 2
+		note A#, 2
+		note F_, 2
+		note A#, 2
+		note F_, 2
+		note A#, 2
+		note F_, 2
+		note A#, 2
 Channel3_Bar37:
-		note D_, 2
-		note G_, 2
-		note D_, 2
-		note G_, 2
-		note D_, 2
-		note G_, 2
-		note D_, 2
-		note B_, 2
-Channel3_Bar38:
-		note G_, 2
-		note D_, 2
-		octave 1
-		note B_, 2
 		octave 2
-		note D_, 2
-		note B_, 2
 		note G_, 2
-		note D_, 2
-		octave 1
-		note B_, 2
+		octave 3
+		note E_, 2
+		octave 2
+		note G_, 2
+		octave 3
+		note E_, 2
+		octave 2
+		note G_, 2
+		octave 3
+		note E_, 2
+		octave 2
+		note G_, 2
+		octave 3
+		note E_, 2
+		octave 2
+Channel3_Bar38:
+		octave 2
+		note G_, 2
+		octave 3
+		note E_, 2
+		octave 2
+		note G_, 2
+		octave 3
+		note E_, 2
+		octave 2
+		note G_, 2
+		octave 3
+		note E_, 2
+		octave 2
+		note G_, 2
+		octave 3
+		note E_, 2
+		octave 2
 Channel3_Bar39:
 		octave 2
 		note D_, 2
