@@ -69,5 +69,5 @@ TrainerClassDVs: ; 270d6
 	db $98, $88 ; officer
 	db $7E, $A8 ; gruntf
 	db $98, $88 ; mysticalman
-	db $FF, $FF ; hibiki
+	db $FD, $FF ; hibiki
 ; 2715c

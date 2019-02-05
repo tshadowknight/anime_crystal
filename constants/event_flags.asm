@@ -1549,8 +1549,8 @@
 	const EVENT_BEAT_SAGE_MASA
 	const EVENT_BEAT_SAGE_KOJI
 ; ???
-	const EVENT_5CC
-	const EVENT_5CD
+	const EVENT_FOUGHT_HIBIKI
+	const EVENT_MET_HIBIKI
 	const EVENT_5CE
 	const EVENT_5CF
 	const EVENT_5D0

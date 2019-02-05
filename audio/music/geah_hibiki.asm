@@ -108,52 +108,58 @@ Channel1_Bar12:
 		note D_, 6
 		note __, 4
 Channel1_Bar13:
-		intensity $A0 ; ch 1 init
-		octave 2
-		note A#, 2
-		octave 3
-		note __, 2
-		note C_, 1
-		note __, 1
-		note C_, 4
-		note __, 2
-		note D_, 2
-		note __, 2
+		note __, 16
+		;intensity $A0 ; ch 1 init
+		;octave 2
+		;note A#, 2
+		;octave 3
+		;note __, 2
+		;note C_, 1
+		;note __, 1
+		;note C_, 4
+		;note __, 2
+		;note D_, 2
+		;note __, 2
 Channel1_Bar14:
-		note D#, 2
-		note __, 2
-		note D_, 1
-		note __, 1
-		note D#, 4
-		note __, 6
+		note __, 16
+		;note D#, 2
+		;note __, 2
+		;note D_, 1
+		;note __, 1
+		;note D#, 4
+		;note __, 6
 Channel1_Bar15:
-		note D_, 4
-		note __, 2
-		note C_, 4
-		note __, 2
-		octave 2
-		note A#, 2
-		note __, 2
+		note __, 16
+		;note D_, 4
+		;note __, 2
+		;note C_, 4
+		;note __, 2
+		;octave 2
+		;note A#, 2
+		;note __, 2
 Channel1_Bar16:		
-		note A#, 4 
-		note __, 2
-		note G_, 6
-		note __, 4
+		note __, 16
+		;note A#, 4 
+		;note __, 2
+		;note G_, 6
+		;note __, 4
 Channel1_Bar17:
-		octave 3
-		note C_, 4
-		note __, 2
-		note C_, 4
-		note __, 2
-		note D_, 2
-		note __, 2
+		note __, 16
+		;octave 3
+		;note C_, 4
+		;note __, 2
+		;note C_, 4
+		;note __, 2
+		;note D_, 2
+		;note __, 2
 Channel1_Bar18:
-		note D#, 4
-		note __, 2
-		note D#, 4
-		note __, 2
-		note F_, 2
-		note __, 2
+		note __, 16
+		;note D#, 4
+		;note __, 2
+		;note D#, 4
+		;note __, 2
+		;note F_, 2
+		;note __, 2
 Channel1_Bar19:
 		octave 4
 		note D_, 2
@@ -212,20 +218,17 @@ Channel1_Bar26:
 		note __, 2
 Channel1_Bar27:
 		note D_, 2
+		note __, 4		
+		note F_, 2		
 		note __, 4
-		octave 3
-		note A#, 2		
-		note __, 4
-		note A#, 2
+		note F_, 2
 		note __, 2
-Channel1_Bar28:
-		octave 4
+Channel1_Bar28:		
 		note D_, 2
+		note __, 4	
+		note F_, 2		
 		note __, 4
-		octave 3
-		note A#, 2		
-		note __, 4
-		note A#, 2
+		note F_, 2
 		note __, 2
 Channel1_Bar29:
 		octave 4
